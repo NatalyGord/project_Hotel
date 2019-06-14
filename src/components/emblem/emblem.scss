@@ -1,0 +1,55 @@
+@import "../../colors/colors.scss";
+
+.emblem{
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 3px solid $dark;
+  opacity: 0.25;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  z-index: 4;
+}
+.emblem_left{
+  width: 22.24px;
+  height: 22.24px;
+  border-radius: 50%;
+  border: 3px solid $dark;
+  opacity: 1;
+  position: absolute;
+  left: -5.83px;
+  top: 15.35px;
+  border-right-color: transparent;    
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: rotate(45deg);
+  z-index: 3;
+}
+.emblem_right{
+  width: 22.24px;
+  height: 22.24px;
+  border-radius: 50%;
+  border: 3px solid $dark;
+  opacity: 1;
+  position: absolute;
+  left: 19.24px;
+  top: 15.35px;
+  border-right-color: transparent;    
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: rotate(-45deg);
+  z-index: -2;
+}
+.emblem_left1{
+  width: 22.96px;
+  height: 22.96px;
+  border-radius: 50%;
+  border: 3px solid $fon;
+  position: absolute;
+  left: -2.73px;
+  top: 16.35px;
+  z-index: 1;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}

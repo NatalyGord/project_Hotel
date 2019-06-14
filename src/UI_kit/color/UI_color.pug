@@ -1,9 +1,75 @@
+include ../../components/emblem/emblem.pug
+
+
 <!DOCTYPE html>
 html(lang="en")
+
   head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     title Document
+    link(rel="stylesheet" type="text/css" href="app.css")
+    script(src="app.js")
   body
-   h1 привет
+    
+    div.embl
+      +emblem
+    
+  
+  div.col_name
+    div.colorSquare 
+      div.square.colr1
+      div.nameColor 
+        h2 Dark Shade 100% 
+        p #1F2041
+    div.colorSquare
+      div.square.colr2
+      div.nameColor 
+        h2 Dark Shade 75% 
+        p #1F2041
+    div.colorSquare
+      div.square.colr3 
+      div.nameColor 
+        h2 Dark Shade 50% 
+        p #1F2041
+    div.colorSquare
+      div.square.colr4 
+      div.nameColor 
+        h2 Dark Shade 25% 
+        p #1F2041
+    div.colorSquare
+      div.square.colr5 
+      div.nameColor 
+        h2 Dark Shade 5% 
+        p #1F2041
+    div.colorSquare
+      div.square.colr6 
+      div.nameColor 
+        h2 Purple
+        p #BC9CFF
+    div.colorSquare
+      div.square.colr7 
+      div.nameColor 
+        h2 Green
+        p #6FCF97 
+
+  div.shrife
+    div.el1
+      div.el H1
+      div.txt
+        h1.tx This one is the sub-section or widget title
+    div.el2  
+      div.el H2
+      div.txt
+        h2.tx Next one is the item title inside widgets
+    div.el3  
+      div.el H3
+      div.txt
+        h3.tx This is a label or CTA text
+    div.el4  
+      div.el Body
+      div.txt
+        p.tx This is the body text which is used for most of the design, like paragraphs, lists, etc.     
+    
+  
