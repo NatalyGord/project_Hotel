@@ -65,7 +65,7 @@ module.exports = {
           options: {
               publicPath: './',
               name: '/fonts/[name].[ext]',
-              limit: 1000
+              limit: 2000
              }
              }]
     }
