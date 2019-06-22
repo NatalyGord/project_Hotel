@@ -1,5 +1,6 @@
 include ../../components/emblem/emblem.pug
-
+include ../../components/TextField1/TextField1.pug
+include ../../components/TextField2/TextField2.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -17,4 +18,5 @@ html(lang="en")
       +emblem
 
     div.box1
-      input.input(name="email" type="email" placeholder="Email" required)
+      +TextField1
+      +TextField2

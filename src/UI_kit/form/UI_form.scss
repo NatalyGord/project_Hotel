@@ -1,19 +1,9 @@
 @import "../../colors/colors.scss";
+@import "../../components/TextField1/TextField1.scss";
+@import "../../components/TextField2/TextField2.scss";
 
-.input{
-  box-sizing: border-box;
-  width: 320px;
-  height: 44px;
-  border: 1px solid rgba($dark, 0.25);
-  border-radius: 4px;
-  padding-left: 15px;
-  background-color: $white;
-  font-family: Montserrat-Medium;
-  font-size: 14px;
-  line-height: 18px;
-  color: rgba($dark, 0.25);
-}
 .box1{
   margin-left: 141px;
   margin-top: 163px;
+  width: 340px;
 }
