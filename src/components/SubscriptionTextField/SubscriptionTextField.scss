@@ -19,5 +19,7 @@
   margin-top: 61px;
 }
 .material_gradient{
-  color: $gradient1;
+  background: $gradient1;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

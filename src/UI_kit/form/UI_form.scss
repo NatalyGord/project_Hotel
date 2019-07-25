@@ -12,4 +12,73 @@
   margin-left: 141px;
   margin-top: 163px;
   width: 340px;
+  position: relative;
+}
+.capt{
+  font-family: Montserrat-Medium;
+  font-size: 12px;
+  line-height: 15px;
+  word-spacing: 1px;
+  text-transform: uppercase;
+  position: absolute;
+}
+.caption1,
+.caption3,
+.caption5,
+.caption7,
+.caption9,
+.caption10,
+.caption11,
+.caption12{
+  color: rgba($dark, 1);
+  font-weight: bold;
+}
+.caption2,
+.caption4,
+.caption6,
+.caption8{
+  color: rgba($dark, 0.5);
+}
+.caption1{
+  top: -20px;
+}
+.caption2{
+  top: -23px;
+  right: 20px;
+}
+.caption3{
+  top: 64.44px;
+}
+.caption4{
+  top: 64.44px;
+  right: 20px;
+  letter-spacing: -0.4px;
+}
+.caption5{
+  top: 148.44px;
+}
+.caption6{
+  top: 148.44px;
+  right: 20px;
+}
+.caption7{
+  top: 235px;
+}
+.caption8{
+  top: 232px;
+  right: 20px;
+}
+.caption9{
+  top: 339px;
+}
+.caption10{
+  top: 339px;
+  right: 52px;
+}
+.caption11{
+  top: 444px;
+}
+.caption12{
+  top: 549px;
+  letter-spacing: 0.1px;
 }
