@@ -6,6 +6,7 @@
 @import "../../components/DateDropdown/DateDropdown.scss";
 @import "../../components/FilterDateDropdown/FilterDateDropdown.scss";
 @import "../../components/SubscriptionTextField/SubscriptionTextField.scss";
+@import "../../components/CheckboxButtons/CheckboxButtons.scss";
 
 
 .box1{
@@ -13,6 +14,13 @@
   margin-top: 163px;
   width: 340px;
   position: relative;
+}
+.box2{
+  margin-left: 100px;
+  margin-top: 163px;
+  width: 340px;
+  position: relative;
+  background-color: pink;
 }
 .capt{
   font-family: Montserrat-Medium;
@@ -29,7 +37,8 @@
 .caption9,
 .caption10,
 .caption11,
-.caption12{
+.caption12,
+.caption13{
   color: rgba($dark, 1);
   font-weight: bold;
 }
@@ -81,4 +90,8 @@
 .caption12{
   top: 549px;
   letter-spacing: 0.1px;
+}
+.caption13{
+  top: -20px;
+  left: 7px;
 }

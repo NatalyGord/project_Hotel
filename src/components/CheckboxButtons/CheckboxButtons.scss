@@ -1,0 +1,48 @@
+.checkboxButtons{
+  font-family: Montserrat-Medium;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 12px;
+  padding-top: 0.5px;
+ }
+ .checkb_text{
+   vertical-align: top;
+   letter-spacing: -0.1px;
+   display: inline-block;
+   
+ }
+input[type="checkbox"] {
+  display:none;
+}
+.checkb1{    
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -1px 10px 11px 6px;
+    vertical-align: middle;
+    background: $white;
+    cursor: pointer;
+    border: 1px solid rgba($dark, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}
+.checkb2{
+    width: 6px;
+    height: 8px;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-image: $gradient1;
+    border-image-slice: 1;
+    box-sizing: border-box;
+    transform: rotate(45deg);
+    margin: 4px auto;
+    visibility: hidden;
+    
+}
+input[type="checkbox"]:checked + label .checkb2{
+    visibility: visible;
+}
+input[type="checkbox"]:checked + label .checkb1{
+  border: 1px solid $purple;
+}
