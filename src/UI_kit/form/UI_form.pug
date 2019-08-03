@@ -8,6 +8,8 @@ include ../../components/FilterDateDropdown/FilterDateDropdown.pug
 include ../../components/SubscriptionTextField/SubscriptionTextField.pug
 include ../../components/CheckboxButtons/CheckboxButtons.pug
 include ../../components/RadioButtons/RadioButtons.pug
+include ../../components/Toggle/Toggle.pug
+include ../../components/Toggle/Toggle_check.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -50,7 +52,9 @@ html(lang="en")
       +CheckboxButtons
       +RadioButtons
       div.caption14.capt Radio Buttons
-      
+      +Toggle_check
+      +Toggle
+      div.caption15.capt Toggle
         
 
 

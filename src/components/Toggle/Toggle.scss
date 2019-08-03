@@ -1,0 +1,55 @@
+.toggle{
+  font-family: Montserrat-Medium;
+  font-size: 14px;
+  line-height: 24px;
+  box-sizing: border-box;
+  color: rgba($dark, 0.75);
+  margin-top: 68px;
+  margin-left: 6px;
+}
+.toggle2{
+  font-family: Montserrat-Medium;
+  font-size: 14px;
+  line-height: 24px;
+  box-sizing: border-box;
+  color: rgba($dark, 0.75);
+  margin-top: 7px;
+  margin-left: 6px;
+}
+.toggle_out{
+  width: 40px;
+  height: 20px;
+  background: $white;
+  border: 1px solid rgba($dark, 0.25);
+  border-radius: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+}
+.toggle_centre{
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background: rgba($dark, 0.25);
+  display: inline-block;
+  top: 3px;
+  left: 3px;
+  position: absolute;
+ 
+}
+.toggle_text{
+  padding-left: 10px;
+  vertical-align: top;
+  letter-spacing: -0.1px;
+  display: inline-block;
+  position: relative;
+  bottom: 3px;
+  
+}
+input[type="checkbox"]:checked + label .toggle_centre{
+  background: $gradient1;
+  left: 23px;
+}
+input[type="checkbox"]:checked + label .toggle_out{
+border: 1px solid $purple;
+}

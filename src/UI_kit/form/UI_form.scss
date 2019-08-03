@@ -8,6 +8,7 @@
 @import "../../components/SubscriptionTextField/SubscriptionTextField.scss";
 @import "../../components/CheckboxButtons/CheckboxButtons.scss";
 @import "../../components/RadioButtons/RadioButtons.scss";
+@import "../../components/Toggle/Toggle.scss";
 
 .box1{
   margin-left: 141px;
@@ -39,7 +40,8 @@
 .caption11,
 .caption12,
 .caption13,
-.caption14{
+.caption14,
+.caption15{
   color: rgba($dark, 1);
   font-weight: bold;
 }
@@ -99,4 +101,8 @@
 .caption14{
   top: 150px;
   left: 7px;
+}
+.caption15{
+  top: 242px;
+  left: 5.5px;
 }
