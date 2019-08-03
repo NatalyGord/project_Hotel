@@ -7,7 +7,7 @@
 @import "../../components/FilterDateDropdown/FilterDateDropdown.scss";
 @import "../../components/SubscriptionTextField/SubscriptionTextField.scss";
 @import "../../components/CheckboxButtons/CheckboxButtons.scss";
-
+@import "../../components/RadioButtons/RadioButtons.scss";
 
 .box1{
   margin-left: 141px;
@@ -38,7 +38,8 @@
 .caption10,
 .caption11,
 .caption12,
-.caption13{
+.caption13,
+.caption14{
   color: rgba($dark, 1);
   font-weight: bold;
 }
@@ -93,5 +94,9 @@
 }
 .caption13{
   top: -20px;
+  left: 7px;
+}
+.caption14{
+  top: 150px;
   left: 7px;
 }
