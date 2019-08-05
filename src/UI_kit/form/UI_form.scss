@@ -9,6 +9,7 @@
 @import "../../components/CheckboxButtons/CheckboxButtons.scss";
 @import "../../components/RadioButtons/RadioButtons.scss";
 @import "../../components/Toggle/Toggle.scss";
+@import "../../components/LikeButton/LikeButton.scss";
 
 .box1{
   margin-left: 141px;
@@ -41,7 +42,8 @@
 .caption12,
 .caption13,
 .caption14,
-.caption15{
+.caption15,
+.caption16{
   color: rgba($dark, 1);
   font-weight: bold;
 }
@@ -105,4 +107,8 @@
 .caption15{
   top: 242px;
   left: 5.5px;
+}
+.caption16{
+  top: 371px;
+  left: 6.5px;
 }

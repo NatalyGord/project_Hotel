@@ -19,9 +19,6 @@
   font-family: MaterialIcons-Regular;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 24px;
-  color: rgba($dark, 0.5);
   display: inline-block;
   text-transform: none;
   letter-spacing: normal;
@@ -32,13 +29,15 @@
    -webkit-font-smoothing: antialiased;
    /* Support for Safari and Chrome. */
    text-rendering: optimizeLegibility;
- 
-   /* Support for Firefox. */
+    /* Support for Firefox. */
    -moz-osx-font-smoothing: grayscale;
- 
-   /* Support for IE. */
+    /* Support for IE. */
    font-feature-settings: 'liga';
-   
+   }
+.material-icons_posit1{
+  font-size: 24px;
+  line-height: 24px;
+  color: rgba($dark, 0.5);
   position: absolute;
   right: 10px;
   top: 10px;

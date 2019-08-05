@@ -1,0 +1,52 @@
+.likeButton{
+  font-family: Montserrat-Medium;
+  font-size: 10px;
+  line-height: 12px;
+  box-sizing: border-box;
+  display: inline-block;
+  color: rgba($dark, 0.25);
+  margin-top: 68px;
+  margin-left: 6px;
+  margin-right: 4px;
+  position: relative;
+  
+}
+.likeButton_out{
+  width: 40px;
+  height: 20px;
+  background: $white;
+  border: 1px solid rgba($dark, 0.25);
+  border-radius: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  color: rgba($dark, 0.25);
+  position: relative;
+  
+}
+.likeButton_out .likeButton_centre{
+  font-size: 8px;
+  line-height: 9px;
+  color: rgba($dark, 0.25);
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+}
+.likeButton_namb{
+  width: 6px;
+  height: 13px;
+  color: rgba($dark, 0.25);
+  position: absolute;
+  right: 13px;
+  top: 4.5px;
+  }
+input[type="checkbox"]:checked + label .likeButton_centre{
+  color: $purple;
+ }
+input[type="checkbox"]:checked + label .likeButton_out{
+ border: 1px solid $purple;
+}
+input[type="checkbox"]:checked + label .likeButton_namb{
+  color: $purple;
+}
