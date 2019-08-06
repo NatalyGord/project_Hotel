@@ -11,6 +11,7 @@
 @import "../../components/Toggle/Toggle.scss";
 @import "../../components/LikeButton/LikeButton.scss";
 @import "../../components/RateButton/rateButton.scss";
+@import "../../components/RangeSlider/RangeSlider.scss";
 
 .box1{
   margin-left: 141px;
@@ -23,7 +24,14 @@
   margin-top: 163px;
   width: 340px;
   position: relative;
-  background-color: pink;
+  
+}
+.box3{
+  margin-left: 55px;
+  margin-top: 163px;
+  width: 340px;
+  position: relative;
+  background-color: palegreen;
 }
 .capt{
   font-family: Montserrat-Medium;
@@ -45,14 +53,16 @@
 .caption14,
 .caption15,
 .caption16,
-.caption17{
+.caption17,
+.caption18{
   color: rgba($dark, 1);
   font-weight: bold;
 }
 .caption2,
 .caption4,
 .caption6,
-.caption8{
+.caption8,
+.caption19{
   color: rgba($dark, 0.5);
 }
 .caption1{
@@ -120,4 +130,21 @@
 .caption17{
   top: 462px;
   left: 6.5px;
+}
+.caption18{
+  top: -19.5px;
+  left: 3px;
+}
+.caption19{
+  top: -19.5px;
+  left: 167px;
+  letter-spacing: -0.5px;
+}
+.rub{
+  font-family: arial;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+  line-height: 3px;
+  display: inline-block;
+  width: 0.4em;
 }

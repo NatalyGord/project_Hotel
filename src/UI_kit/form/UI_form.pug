@@ -13,7 +13,7 @@ include ../../components/Toggle/Toggle_check.pug
 include ../../components/LikeButton/LikeButton.pug
 include ../../components/LikeButton/LikeButton_check.pug
 include ../../components/RateButton/rateButton.pug
-
+include ../../components/RangeSlider/RangeSlider.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -66,3 +66,7 @@ html(lang="en")
         +rateButton('star e838', 'star e838', 'star e838', 'star e838','star_border e83a')
         +rateButton('star e838', 'star e838', 'star e838', 'star e838','star e838')
       div.caption17.capt rate button
+    div.box3
+      +RangeSlider
+      div.caption18.capt Range Slider 
+      div.caption19.capt 5 000 <span class="rub">Р</span> - 10 000 <span class="rub">Р</span> 

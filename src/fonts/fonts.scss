@@ -28,9 +28,10 @@
   }         
 @font-face {
   font-family: MaterialIcons-Regular;
-  src: url(../fonts/MaterialIcons-Regular.svg); 
-  src: local(MaterialIcons-Regular), url(../fonts/MaterialIcons-Regular.woff); 
-  src: local(MaterialIcons-Regular), url(../fonts/MaterialIcons-Regular.ttf); 
+  src: url(../fonts/MaterialIcons-Regular.svg), format('svg'); 
+  src: local(MaterialIcons-Regular), url(../fonts/MaterialIcons-Regular.woff), format('font-woff'); 
+  src: local(MaterialIcons-Regular), url(../fonts/MaterialIcons-Regular.ttf), format('truetype');
+  src: local(MaterialIcons-Regular), url(../fonts/MaterialIcons-Regular.woff2), format('woff2'); 
   }      
-  
+     
   
