@@ -10,6 +10,7 @@
 @import "../../components/RadioButtons/RadioButtons.scss";
 @import "../../components/Toggle/Toggle.scss";
 @import "../../components/LikeButton/LikeButton.scss";
+@import "../../components/RateButton/rateButton.scss";
 
 .box1{
   margin-left: 141px;
@@ -43,7 +44,8 @@
 .caption13,
 .caption14,
 .caption15,
-.caption16{
+.caption16,
+.caption17{
   color: rgba($dark, 1);
   font-weight: bold;
 }
@@ -110,5 +112,12 @@
 }
 .caption16{
   top: 371px;
+  left: 6.5px;
+}
+.rateButton_posit{
+  margin-left: 6px;
+}
+.caption17{
+  top: 462px;
   left: 6.5px;
 }

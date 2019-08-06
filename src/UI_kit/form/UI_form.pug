@@ -12,6 +12,8 @@ include ../../components/Toggle/Toggle.pug
 include ../../components/Toggle/Toggle_check.pug
 include ../../components/LikeButton/LikeButton.pug
 include ../../components/LikeButton/LikeButton_check.pug
+include ../../components/RateButton/rateButton.pug
+
 
 <!DOCTYPE html>
 html(lang="en")
@@ -60,5 +62,7 @@ html(lang="en")
       +LikeButton
       +LikeButton_check
       div.caption16.capt like button  
-
-
+      div.rateButton_posit
+        +rateButton('star e838', 'star e838', 'star e838', 'star e838','star_border e83a')
+        +rateButton('star e838', 'star e838', 'star e838', 'star e838','star e838')
+      div.caption17.capt rate button
