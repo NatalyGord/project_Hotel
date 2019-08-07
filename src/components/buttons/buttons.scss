@@ -1,0 +1,58 @@
+.button{
+  width: 99px;
+  height: 44px;
+  border-radius: 22px;
+  box-sizing: border-box;
+  display: inline-block;
+  }
+.battons{
+  margin-top: 99px;
+  margin-left: 4px;
+  }
+.button_text{
+  font-family: Montserrat-Medium;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 44px;
+  text-transform: uppercase;
+  padding-left: 18px;
+}
+.button1_color{
+  color: $white;
+  background: $gradient1;
+}
+.button2_color{
+  color: $white;
+  background: $gradient1;
+  opacity: 0.5;
+  margin-left: 20px;
+}
+.button3_color{
+  color: $purple;
+  background: $white;
+  border: 1px solid $purple;
+}
+.button4_color{
+  color: $purple;
+  border: 1px solid rgba($purple, 0.5);
+  background: $white;
+  margin-left: 20px;
+}
+div.button34{
+  margin-top: 30px;
+  margin-left: -1px;
+}
+.button5_color{
+  color: $purple;
+}
+.button6_color{
+  color: rgba($dark, 0.5);
+}
+div.button56{
+  margin-top: 17px;
+  margin-left: -18px;
+}
+.button6_color{
+  margin-left: -18px;
+}
