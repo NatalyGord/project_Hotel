@@ -56,3 +56,39 @@ div.button56{
 .button6_color{
   margin-left: -18px;
 }
+.button7{
+  width: 320px;
+  height: 44px;
+  border-radius: 22px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.button7_color{
+  color: $white;
+  background: $gradient1;
+  position: relative;
+}
+.button77{
+  margin-top: 15px;
+  margin-left: -1px;
+  
+}
+.material-icons_posit2{
+  font-size: 24px;
+  line-height: 24px;
+  color: $white;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 24px;
+}
+.button7_text{
+  font-family: Montserrat-Medium;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 44px;
+  text-transform: uppercase;
+  padding-left: 94px;
+  word-spacing: 1px;
+}
