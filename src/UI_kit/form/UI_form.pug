@@ -15,6 +15,7 @@ include ../../components/LikeButton/LikeButton_check.pug
 include ../../components/RateButton/rateButton.pug
 include ../../components/RangeSlider/RangeSlider.pug
 include ../../components/buttons/buttons.pug
+include ../../components/pagination/pagination.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -72,3 +73,7 @@ html(lang="en")
       div.caption18.capt Range Slider 
       div.caption19.capt 5 000 <span class="rub">Р</span> - 10 000 <span class="rub">Р</span> 
       +buttons
+      div.pagination_loc
+        +pagination
+      div.caption20.capt pagination 
+      div.caption21 1 – 12 из 100+ вариантов аренды

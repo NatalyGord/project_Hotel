@@ -13,6 +13,7 @@
 @import "../../components/RateButton/rateButton.scss";
 @import "../../components/RangeSlider/RangeSlider.scss";
 @import "../../components/buttons/buttons.scss";
+@import "../../components/pagination/pagination.scss";
 
 .box1{
   margin-left: 141px;
@@ -55,7 +56,8 @@
 .caption15,
 .caption16,
 .caption17,
-.caption18{
+.caption18,
+.caption20{
   color: rgba($dark, 1);
   font-weight: bold;
 }
@@ -140,6 +142,21 @@
   top: -19.5px;
   left: 167px;
   letter-spacing: -0.5px;
+}
+.caption20{
+  top: 377px;
+  left: 5px;
+}
+.caption21{
+  font-family: Montserrat-Medium;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba($dark, 0.75);
+  position: absolute;
+  top: 456px;
+  left: 9px;
+  letter-spacing: -0.4px;
+  word-spacing: 1px;
 }
 .rub{
   font-family: arial;

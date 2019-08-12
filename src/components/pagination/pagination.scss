@@ -1,0 +1,74 @@
+.pagination1{
+  width: 40px;
+  height: 40px;
+  border-radius: 22px;
+  box-sizing: border-box;
+  display: inline-block;
+  color: $white;
+  background: $gradient1;
+  position: relative;
+}
+.pagination1_text{
+  font-family: Montserrat-Medium;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  position: absolute;
+  left: 17px;
+  top: 12px;
+   }
+.pagination2,
+.pagination3,
+.pagination_point,
+.pagination15{
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  display: inline-block;
+  color: rgba($dark, 0.5);
+  position: relative;
+}   
+.pagination2_text,
+.pagination3_text,
+.pagination_point_text{
+  font-family: Montserrat-Medium;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  position: absolute;
+  left: 17px;
+  top: 11px;
+   }
+.pagination15_text{
+  font-family: Montserrat-Medium;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  position: absolute;
+  left: 14px;
+  top: 11px;
+   }   
+.pagination_arr{
+  width: 40px;
+  height: 40px;
+  border-radius: 22px;
+  box-sizing: border-box;
+  display: inline-block;
+  color: $white;
+  background: $gradient2;
+  line-height: 37px;
+  position: relative;
+}   
+.pagination_icons{
+  position: absolute;
+  left: 7.5px;
+  top: 7.5px;
+}
+.pagination_loc{
+  margin-top: 72px;
+  margin-left: 4px;
+ 
+}   
